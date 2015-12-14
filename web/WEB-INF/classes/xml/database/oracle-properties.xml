@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+  <!--Tooldatabse set-->
+  <entry key="tool_dbms">oracle</entry>
+  <entry key="tool_jar_file"></entry>
+  <entry key="tool_driver"></entry>
+  <entry key="tool_database_name">tho6</entry>
+  <entry key="tool_user_name">tosad_2015_2b_team6</entry>
+  <entry key="tool_password">tosad_2015_2b_team6</entry>
+  <entry key="tool_server_name">ondora02.hu.nl</entry>
+  <entry key="tool_port_number">8521</entry>
+  <entry key="tool_sid">cursus02.hu.nl</entry>
+
+  <!--Tooldatabse set-->
+  <entry key="tool_dbms">oracle</entry>
+  <entry key="tool_jar_file"></entry>
+  <entry key="tool_driver"></entry>
+  <entry key="tool_database_name">tho6</entry>
+  <entry key="tool_user_name">tosad_2015_2b_team6_target</entry>
+  <entry key="tool_password">tosad_2015_2b_team6_target</entry>
+  <entry key="tool_server_name">ondora02.hu.nl</entry>
+  <entry key="tool_port_number">8521</entry>
+  <entry key="tool_sid">cursus02.hu.nl</entry>
+</properties>

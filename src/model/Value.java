@@ -3,43 +3,48 @@ package model;
 public class Value {
 	private int order;
 	private String value;
-	public String Datatype;
+	public String dataType;
 	
-	public void setDatatype(String Datatype) {
-		this.Datatype = Datatype;
-	}
-	public String getDatatype() {
-		return Datatype;
-	}
 	/**
-	 * getter for the attribute order
-	 * @return an integer
+	 * setter for attribute order
+	 * @param order integer that will be assigned to order attribute
 	 */
-	public int getOrder() {
-		return order;
-	}
-	/**
-	 * setter for the attribute order
-	 * 
-	 * @param order integer which has to become the attribute order
-	 */
-	public void setOrder(int order) {
+	public void setOrder(int order){
 		this.order = order;
 	}
 	/**
-	 * getter for the attribute value
-	 * 
-	 * @return a String
+	 * getter for attribute order
+	 * @return an interger
 	 */
-	public String getValue() {
-		return value;
+	public int getOrder(){
+		return order;
 	}
 	/**
 	 * setter for the attribute value
-	 * 
-	 * @param value String which has to become the attribute value
+	 * @param value
 	 */
-	public void setValue(String value) {
-		this.value = value;
+	public void setValue(String value){
+		this.value = value;		
+	}
+	/**
+	 * getter for the attribute value
+	 * @return a String
+	 */
+	public String getValue(){
+		return value;
+	}
+	/**
+	 * setter for the datatype of a value
+	 * @param dataType
+	 */
+	public void setDataType(String dataType){
+		this.dataType = dataType;
+	}
+	/**
+	 * getter for the dataype of a value
+	 * @return a String
+	 */
+	public String getDatatype(){
+		return dataType;
 	}
 }
